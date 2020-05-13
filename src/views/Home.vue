@@ -8,7 +8,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/hello-world.vue';
-import { defineComponent } from 'vue';
+import { defineComponent } from '@vue/composition-api';
 
 export default defineComponent({
   name: 'Home',
@@ -17,7 +17,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style lang="scss" scoped>
-
-</style>
